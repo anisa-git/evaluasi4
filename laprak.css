@@ -1,0 +1,45 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main-color {
+  background-color: aliceblue;
+}
+
+.display-4,
+.lead {
+  color: #fff;
+}
+.banner {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/library.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.input-group-text {
+  background-color: rgb(83, 134, 236);
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto; /* Mengatur agar box berada di tengah */
+  padding: 10px; /* Menambahkan padding agar isi tidak terlalu dekat dengan tepi */
+  background-color: #007bff; /* Warna latar biru (warna kelas bg-primary di Bootstrap) */
+  border-radius: 8px; /* Memberikan sudut melengkung pada box */
+  text-align: center; /* Memastikan teks tetap di tengah */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek rapi */
+}
+footer p {
+  margin: 0; /* Menghilangkan margin default dari <p> */
+  font-size: 14px; /* Ukuran teks yang lebih kecil agar terlihat rapi */
+}
+footer a {
+  text-decoration: none; /* Menghilangkan garis bawah */
+}
